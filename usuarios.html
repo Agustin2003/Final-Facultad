@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/usuarios.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body class="bg-dark"> 
+
+    <header>
+      <nav class="navbar bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img class="carrito" src="./img/Gatito Buseador Peces.png" alt="" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header bg-dark">
+              <h5 class="offcanvas-title " id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 400px; height: 100%;">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <img src="./img/Gatito Buseador Peces.png" alt="mdo" width="60" height="70" >
+                  <span class="fs-4">Barra de interaccion</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                      <img src="./img/zoom-dynamic-premium.png" alt="mdo" width="70" height="40" class="rounded-circle">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                  <br>
+                  <li class="nav-item">
+                    <a href="./index.html" class="nav-link" >
+                        <img src="./img/home.png" alt="mdo" width="24" height="24" class="rounded-circle">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link text-white dropdown-toggle href=" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                        <img src="./img/1111127125202.png" alt="mdo" width="24" height="24" class="rounded-circle">
+                        Categorias
+                      </a>
+                      <ul class="dropdown-menu bg-dark text-white" >
+                        <div class="container">
+                          <div class="row">
+                              
+                              <h3>Categorias</h3>
+
+                              <li><hr class="dropdown-divider bg-light"></li>
+                              
+                              <li><a class="dropdown-item text-white" href="./secciones/productos.html">Terror</a></li>
+
+                              <li><a class="dropdown-item text-white" href="./secciones/productos.html">Accion</a></li>
+      
+                              <li><a class="dropdown-item text-white" href="./secciones/productos.html">Comedia</a></li>
+      
+                              <li><a class="dropdown-item text-white" href="./secciones/productos.html">Familiar</a></li>
+      
+                              <li><a class="dropdown-item text-white" href="./secciones/productos.html">Ciencia Ficción</a></li>
+      
+                              <li><a class="dropdown-item text-white" href="./secciones/productos.html">Drama</a></li></div>
+                        </div>
+                      </ul>
+                    </li>
+                  </li>
+                  <li >
+                    <a href="#" class="nav-link active text-white">
+                      <img src="./img/boy-dynamic-color.png" alt="mdo" width="24" height="24" class="rounded-circle">
+                      Creadores
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <img src="./img/calender-dynamic-color.png" alt="mdo" width="24" height="24" class="rounded-circle">
+                      Orders
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <img src="./img/pin-dynamic-color.png" alt="mdo" width="24" height="24" class="rounded-circle">
+                      Customers
+                    </a>
+                  </li>
+                  <br><br><br><br><br><br><br><br><br>
+                  <hr>
+                  <div class="dropup">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./img/boy-dynamic-color.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                      <strong>Usuario</strong>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="./img/tool-dynamic-color.png" alt="mdo" width="24" height="24" class="rounded-circle">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                      </ul>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+      <main>
+
+        <section class="team">
+            <div class="center">
+                <h1>Nuestro equipo</h1>
+            </div>
+    
+            <div class="team-content">
+                <div class="box">
+                    <img src="img/01.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="img/02.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="./img/03.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="./img/04.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/02.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/03.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        
+        
+      </main>
+      
+        
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <img src="./img/logo.png" alt="mdo" width="60" height="70" >
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </footer>
+
+          <script src="./js/bootstrap.bundle.min.js"></script>
+          <script src="./js/sidebars.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+</body>
+</html>
