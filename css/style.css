@@ -337,3 +337,27 @@ ul {
 .lii {
   float: left;
 }
+
+
+
+
+/* Peliculas */
+
+.portada_pelicula{
+  width: 600px;
+  height: 700px;
+}
+
+p{
+  color: white;
+}
+
+.titulo_p{
+  text-align: center;
+  color: white;
+
+}
+
+.texto{
+  margin: 100px;
+}
